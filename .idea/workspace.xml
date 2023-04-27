@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e52339c6-9b8c-44b2-be5c-73c6183bfb79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ex2/src/component/ModalDelete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama/contract/contract-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama/contract/contract.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama/customer/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama/customer/customer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama/customer/customer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama/facility/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama/facility/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama/facility/facility.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama/footer/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/furama/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/src/component/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/src/component/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/src/component/CreateBlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/src/component/CreateBlog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/src/data/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/src/data/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex2/src/service/BlogService.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/src/service/BlogService.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OwYbiYbL0Hv5qgG8jkL6brjDGq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\USER\Downloads\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\module5" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e52339c6-9b8c-44b2-be5c-73c6183bfb79" name="Default Changelist" comment="" />
+      <created>1682473184964</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682473184964</updated>
+      <workItem from="1682473187138" duration="4510000" />
+      <workItem from="1682483615087" duration="927000" />
+      <workItem from="1682490754076" duration="3064000" />
+      <workItem from="1682493971771" duration="5000" />
+      <workItem from="1682494086376" duration="64000" />
+      <workItem from="1682494355055" duration="5717000" />
+      <workItem from="1682558566758" duration="906000" />
+      <workItem from="1682559670422" duration="1714000" />
+      <workItem from="1682561414027" duration="1146000" />
+      <workItem from="1682562730674" duration="746000" />
+      <workItem from="1682577133643" duration="8245000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="415" y="139" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1682558634486">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="415" y="139" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672@0.0.1280.672" timestamp="1682558634486" />
+    <state x="371" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1682492638133">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="371" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.672@0.0.1280.672" timestamp="1682492638133" />
+    <state x="421" y="92" key="FileChooserDialogImpl" timestamp="1682563146307">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="421" y="92" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1682563146307" />
+    <state x="297" y="149" key="run.anything.popup" timestamp="1682492234891">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="297" y="149" key="run.anything.popup/0.0.1280.672@0.0.1280.672" timestamp="1682492234891" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ex1/ex2.html</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
