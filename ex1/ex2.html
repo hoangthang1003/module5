@@ -13,10 +13,9 @@
     function handleSubmit() {
         let number = +document.getElementById("number").value
         let result = 0;
-        for (let i = number+1; i < 20; i++) {
-           if (i%number===0){
+        for (let i = number+number; i < 20 ; i+=number) {
                result+=i;
-           }
+               document.writeln(i)
         }
         return document.writeln("<br/>"+result);
     }
