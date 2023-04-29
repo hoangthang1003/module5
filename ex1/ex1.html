@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Exercise 1</title>
 </head>
 <body>
 <form>
-    <input type="text" id="username" value="" >
+    <input type="text" id="name" value="" >
     <button type="submit" onclick="checkUserName()">Submit</button>
 </form>
 <script>
     function checkUserName() {
-        let username = document.getElementById("username").value
-        if (username !== "") {
-            return document.write(`One for  ${username}  ,one for me`)
+        let name = document.getElementById("name").value
+        if (name !== "") {
+            return document.write(`One for  ${name}  ,one for me`)
         } else
             return document.write("One for you, one for me")
     }

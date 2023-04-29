@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "yup": "^1.1.1"
+    "react": "^18.2.0"
   }
 }

@@ -1,0 +1,99 @@
+{
+  "customers": [
+    {
+      "id": 2,
+      "name": "Pham Quang Vinh",
+      "dateOfBirth": "2023-02-01",
+      "gender": "2",
+      "idCard": "24211201346",
+      "phoneNumber": "0989888",
+      "email": "6767@gmail.com",
+      "address": "Quang Binh",
+      "customerType": 1
+    },
+    {
+      "name": "thang",
+      "dateOfBirth": "2023-04-27",
+      "idCard": "0849982338",
+      "phoneNumber": "0915195883",
+      "email": "hoanganhthanght@gmail.com",
+      "address": "15 Hà Huy Tập",
+      "customerType": 2,
+      "id": 3
+    }
+  ],
+  "customerTypes": [
+    {
+      "id": 1,
+      "name": "Diamond"
+    },
+    {
+      "id": 2,
+      "name": "Platinum"
+    },
+    {
+      "id": 3,
+      "name": "Gold"
+    },
+    {
+      "id": 4,
+      "name": "Silver"
+    }
+  ],
+  "contracts": [
+    {
+      "id": 2,
+      "customerId": "2",
+      "facilitiyId": "3",
+      "contractCode": "HD-2",
+      "startDate": "2021-12-08",
+      "endDate": "2021-13-08",
+      "deposit": "1500000",
+      "totalMoney": "30000000"
+    }
+  ],
+  "facility": [
+    {
+      "id" : 5,
+      "name":" Xe đạp",
+      "area": 1000,
+      "cost": 5,
+      "maxPeople": 5,
+      "facilityType": 1,
+      "rentType":  1,
+      "standardRoom": "VIP",
+      "description": "",
+      "poolArea": 5,
+      "numberOfFloors": 5,
+      "facilityFree": "đèn mờ",
+      "status": false
+
+
+    }
+  ],
+  "facilityTypes": [
+    {
+      "id": 1,
+      "name": "Room"
+    },
+    {
+      "id": 2,
+      "name": "House"
+    },
+    {
+      "id": 3,
+      "name": "Villa"
+    }
+
+  ],
+  "rentTypes": [
+    {
+      "id": 1,
+      "name": " Xe đạp"
+    },
+    {
+      "id": 2,
+      "name": "Ho Boi"
+    }
+  ]
+}

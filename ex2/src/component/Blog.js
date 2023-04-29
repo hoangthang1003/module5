@@ -42,7 +42,7 @@ export function BlogList() {
                         <td>{blog.category}</td>
                         <td>{blog.updatedAt}</td>
                         <td>
-                            <button type="submit" className="btn btn-primary">Update</button>
+                            <Link to={`/updateBlog/${blog.id}`} className="btn btn-primary">Update</Link>
                         </td>
                         <td>
                         <button
