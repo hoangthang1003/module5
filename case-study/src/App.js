@@ -7,6 +7,7 @@ import Footer from "./component/Footer";
 // import EditFacility from "./component/facility/EditFacility";
 // import FacilityList from "./component/facility/FacilityList";
 import CustomerList from "./component/customer/CustomerList";
+import {AddCustomer} from "./component/customer/AddCustomer";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             {/*<AddFacility />*/}
             {/*<EditFacility />*/}
             {/*<FacilityList />*/}
+            <AddCustomer />
             <CustomerList />
             <Footer/>
         </>

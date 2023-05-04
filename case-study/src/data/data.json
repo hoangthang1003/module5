@@ -2,7 +2,7 @@
   "customers": [
     {
       "id": 2,
-      "name": "Pham Quang Vinh",
+      "name": "Au deptry",
       "dateOfBirth": "2023-02-01",
       "gender": "2",
       "idCard": "24211201346",
@@ -20,6 +20,17 @@
       "address": "15 Hà Huy Tập",
       "customerType": 2,
       "id": 3
+    },
+    {
+      "name": "2",
+      "dateOfBirth": "2023-05-06",
+      "gender": "2",
+      "idCard": "2",
+      "phoneNumber": "3",
+      "email": "4",
+      "address": "5",
+      "customerType": "4",
+      "id": 4
     }
   ],
   "customerTypes": [
@@ -54,21 +65,19 @@
   ],
   "facility": [
     {
-      "id" : 5,
-      "name":" Xe đạp",
+      "id": 5,
+      "name": " Xe đạp",
       "area": 1000,
       "cost": 5,
       "maxPeople": 5,
       "facilityType": 1,
-      "rentType":  1,
+      "rentType": 1,
       "standardRoom": "VIP",
       "description": "",
       "poolArea": 5,
       "numberOfFloors": 5,
       "facilityFree": "đèn mờ",
       "status": false
-
-
     }
   ],
   "facilityTypes": [
@@ -84,7 +93,6 @@
       "id": 3,
       "name": "Villa"
     }
-
   ],
   "rentTypes": [
     {

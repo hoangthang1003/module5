@@ -1,6 +1,6 @@
-
 import {customerService} from "../../service/CustomerService";
 import React, {useEffect, useState} from "react";
+import {Link} from "react-router-dom";
 
 
 function CustomerList() {
@@ -53,20 +53,26 @@ function CustomerList() {
                             </thead>
                             <tbody>
                             {
-                                customerList.map((customer,index) =>
-
-                                <tr key={index}>
-                                    <td>{customer.id}</td>
-                                    <td>{customer.name}</td>
-                                    <td>{customer.dateOfBirth}</td>
-                                    <td>{customer.gender}</td>
-                                    <td>{customer.idCard}</td>
-                                    <td>{customer.phoneNumber}</td>
-                                    <td>{customer.email}</td>
-                                    <td>{customer.address}</td>
-                                    <td>{customerTypeList.filter(ct => ct.id === customer.customerType)[0]?.name}</td>
-                                </tr>
-                            )
+                                customerList.map((customer, index) => (
+                                    <tr key={index}>
+                                        <td>{customer.id}</td>
+                                        <td>{customer.name}</td>
+                                        <td>{customer.dateOfBirth}</td>
+                                        <td>{customer.gender}</td>
+                                        <td>{customer.idCard}</td>
+                                        <td>{customer.phoneNumber}</td>
+                                        <td>{customer.email}</td>
+                                        <td>{customer.address}</td>
+                                        <td>{customerTypeList.filter(ct => ct.id === customer.customerType)[0]?.name}</td>
+                                        <td>
+                                            <Link to="editCustomer/${}" className="btn btn-primary">Edit</Link>
+                                        </td>
+                                        <td>
+                                            <button type="button" className="btn btn-danger">Delete</button>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                ))
                             }
                             </tbody>
                         </table>
