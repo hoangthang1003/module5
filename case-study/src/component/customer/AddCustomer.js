@@ -1,4 +1,4 @@
-import {Field, Form, Formik} from "formik";
+import {ErrorMessage, Field, Form, Formik} from "formik";
 import React, {useEffect, useState} from "react";
 import {customerService} from "../../service/CustomerService";
 
@@ -32,6 +32,11 @@ export function AddCustomer() {
                     <div>
                         <label>Name :</label>
                         <Field id="name" name="name"/>
+                        <ErrorMessage
+                            name="name"
+                            component="span"
+                            classNameName="form-err"
+                        />
                     </div>
                     <div>
                         <label>Date Of Birth :</label>

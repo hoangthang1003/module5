@@ -14,7 +14,7 @@ export function CreateBlog() {
     return (
         <>
             <Formik initialValues={{title:'',category:'',updatedAt: today , content:''}}
-                    validateYupSchema={
+                    validationSchema={
                         Yup.object({
                             title:Yup.string().required(),
                             category:Yup.string().required(),
