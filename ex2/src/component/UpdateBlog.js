@@ -6,7 +6,7 @@ import {BlogService} from "../service/BlogService";
 import React, {useEffect, useState} from "react";
 
 export function UpdateBlog() {
-    const navigate = useNavigate()
+    const navigate = useNavigate();
     const params = useParams()
     const [blog, setBlog] = useState(null);
     const findById = async () => {

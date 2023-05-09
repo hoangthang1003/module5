@@ -10,7 +10,7 @@ const customer = [
         address: "Quang Binh",
         customerType: {
             id: 2,
-            name: "Platinium"
+            name: "Platinum"
         }
 
     },

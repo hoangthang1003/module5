@@ -2,14 +2,14 @@
   "customers": [
     {
       "id": 2,
-      "name": "Au deptry",
+      "name": "Au dep try",
       "dateOfBirth": "2023-02-01",
       "gender": "2",
       "idCard": "24211201346",
       "phoneNumber": "0989888",
       "email": "6767@gmail.com",
       "address": "Quang Binh",
-      "customerType": 1
+      "customerType": "1"
     },
     {
       "name": "thang",
@@ -18,36 +18,43 @@
       "phoneNumber": "0915195883",
       "email": "hoanganhthanght@gmail.com",
       "address": "15 Hà Huy Tập",
-      "customerType": 2,
+      "customerType": "2",
       "id": 3
     },
     {
-      "name": "2",
-      "dateOfBirth": "2023-05-06",
-      "gender": "2",
-      "idCard": "2",
-      "phoneNumber": "3",
-      "email": "4",
-      "address": "5",
+      "name": "Nguyễn Thị Hà",
+      "gender": "Nam",
+      "age": "22",
+      "phoneNumber": "2222222222",
+      "address": "23abc",
       "customerType": "4",
       "id": 4
+    },
+    {
+      "name": "22",
+      "gender": "Nam",
+      "age": "22222",
+      "phoneNumber": "2222222222",
+      "address": "23abc",
+      "customerType": "4",
+      "id": 5
     }
   ],
   "customerTypes": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Diamond"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Platinum"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Gold"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Silver"
     }
   ],
@@ -55,7 +62,7 @@
     {
       "id": 2,
       "customerId": "2",
-      "facilitiyId": "3",
+      "facilityId": "3",
       "contractCode": "HD-2",
       "startDate": "2021-12-08",
       "endDate": "2021-13-08",

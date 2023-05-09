@@ -1,86 +1,140 @@
-import {Component} from "react";
 import {ErrorMessage, Field, Form, Formik} from "formik";
 import * as Yup from 'yup';
+import {useParams} from "react-router";
+import React, {useEffect, useState} from "react";
+import {customerService} from "../../service/CustomerService";
 
-class EditCustomer extends Component {
+export function EditCustomer() {
 
-
-    render() {
-        return (
-            <>
-                <Formik
-                    initialValues={{name: '', age: '', phoneNumber: '', address: ''}}
-                    validationSchema={Yup.object({
-                        name: Yup.string()
-                            .required('Không được để trống').min(2, 'độ dài ký tự phải từ 2 trở lên'),
-                        age: Yup.number()
-                            .required('Không được để trống'),
-                        phoneNumber: Yup.string()
-                            .required('Không được để trống').min(10, 'số điện thoại phải dài ít nhất 10 số và nhiều nhất 12 số')
-                            .max(12, 'số điện thoại phải dài ít nhất 10 số và nhiều nhất 12 số'),
-                        address: Yup.string()
-                            .required('Không được để trống'),
-
-                    })}
-                    onSubmit={(values) => {
-                        console.log(values)
-                    }
-                    }
-                >
-
-                    <Form>
-                        <h1 className='mb'>Edit Customer</h1>
-                        <div className="mb-3">
-                            <label htmlFor="name">Name: <span>*</span></label>
-                            <Field type="text" className="form-control" id="name"
-                                   name='name'
-                            />
-                            <ErrorMessage name='name' component='span' className='form-err'/>
-
-                        </div>
-                        <div className="mb-3">
-                            <label htmlFor="age">Age: <span>*</span></label>
-
-                            <Field type="text" className="form-control" id="age"
-                                   name='age'
-                            />
-                            <ErrorMessage name='age' component='span' className='form-err'/>
-
-                        </div>
-
-                        <div className="mb-3">
-                            <label htmlFor="phoneNumber"> Phone Number <span>*</span></label>
-
-                            <Field type="text" className="form-control" id="phoneNumber"
-                                   name='phoneNumber'
-                            />
-                            <ErrorMessage name='phoneNumber' component='span' className='form-err'/>
-
-                        </div>
-
-                        <div className="mb-3">
-                            <label htmlFor="address"> Address <span>*</span></label>
-
-                            <Field type="text" className="form-control" id="address"
-                                   name='address'
-                            />
-                            <ErrorMessage name='address' component='span' className='form-err'/>
-
-                        </div>
-                        <label htmlFor="customerType">Loại khách hàng: <span>*</span></label>
-                        <div>
-                            <select id="customerType" className="form-control" name="customerType">
-                                <option></option>
-                            </select>
-                            <span></span>
-                        </div>
-                        <button type='submit' className='btn btn-primary'>Submit</button>
-                    </Form>
-                </Formik>
-            </>
-
-        );
+    const params = useParams()
+    const [customer, setCustomer] = useState(null)
+    const [customerTypes, setCustomerTypes] = useState(null)
+    const findById = async () => {
+        const result = await customerService.findById(params.id)
+        setCustomer(result)
     }
-}
+    const customerTypeList = async () => {
+        const result = await customerService.customerTypeList()
+        setCustomerTypes(result)
+    }
+    useEffect(() => {
+        findById()
+        customerTypeList()
+    }, [])
+    if (!customer) {
+        return null;
+    }
 
-export default EditCustomer;
+    return (
+        <>
+            <Formik
+                initialValues={{
+                    name: customer?.name,
+                    dateOfBirth: customer?.dateOfBirth,
+                    gender: customer?.gender,
+                    idCard: customer?.idCard,
+                    phoneNumber: customer?.phoneNumber,
+                    email: customer?.email,
+                    address: customer?.address,
+                    customerType: customer?.customerType
+                }}
+                validationSchema={Yup.object({
+
+                    name: Yup.string().required("REQUIRED_VALIDATION"),
+                    dateOfBirth: Yup.string().required("REQUIRED_VALIDATION"),
+                    gender: Yup.string().required("REQUIRED_VALIDATION"),
+                    idCard: Yup.string().required("REQUIRED_VALIDATION"),
+                    phoneNumber: Yup.string().required("REQUIRED_VALIDATION"),
+                    email: Yup.string().required('REQUIRED_VALIDATION'),
+                    address: Yup.string().required('REQUIRED_VALIDATION'),
+
+                })}
+                onSubmit={(values) => {
+                    console.log(values)
+                }
+                }
+            >
+
+                <Form>
+                    <h1 className='mb'>Edit Customer</h1>
+                    <div className="mb-3">
+                        <label htmlFor="name">Name: <span>*</span></label>
+                        <Field type="text" className="form-control" id="name"
+                               name='name'
+                        />
+                        <ErrorMessage name='name' component='span' className='form-err'/>
+
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="date">Date Of Birth: <span>*</span></label>
+
+                        <Field type="date" className="form-control" id="dateOfBirth"
+                               name='dateOfBirth'
+                        />
+                        <ErrorMessage name='dateOfBirth' component='span' className='form-err'/>
+
+                    </div>
+
+                    <div className="mb-3">
+                        <label htmlFor="gender"> Phone Number <span>*</span></label>
+
+                        <Field type="text" className="form-control" id="gender"
+                               name='gender'
+                        />
+                        <ErrorMessage name='gender' component='span' className='form-err'/>
+
+                    </div>
+
+                    <div className="mb-3">
+                        <label htmlFor="idCard"> ID Card <span>*</span></label>
+
+                        <Field type="text" className="form-control" id="idCard"
+                               name='idCard'
+                        />
+                        <ErrorMessage name='idCard' component='span' className='form-err'/>
+
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="phoneNumber"> Phone Number <span>*</span></label>
+
+                        <Field type="text" className="form-control" id="phoneNumber"
+                               name='phoneNumber'
+                        />
+                        <ErrorMessage name='phoneNumber' component='span' className='form-err'/>
+
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="email"> Email <span>*</span></label>
+
+                        <Field type="text" className="form-control" id="email"
+                               name='email'
+                        />
+                        <ErrorMessage name='email' component='span' className='form-err'/>
+
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="address"> Address <span>*</span></label>
+
+                        <Field type="text" className="form-control" id="address"
+                               name='address'
+                        />
+                        <ErrorMessage name='address' component='span' className='form-err'/>
+
+                    </div>
+                    <label htmlFor="customerType">Loại khách hàng: <span>*</span></label>
+                    <div>
+                        <Field as="select" id="customerType" className="form-control" name="customerType">
+                            {customerTypes.map((ct,index) =>(
+                                <option key={index} value={ct.id}>{ct.name}</option>
+                            ))}
+                        </Field>
+                        <span></span>
+                    </div>
+                    <button type='submit' className='btn btn-primary'>Submit</button>
+                </Form>
+            </Formik>
+        </>
+
+
+    )
+}

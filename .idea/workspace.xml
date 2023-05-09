@@ -20,56 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e52339c6-9b8c-44b2-be5c-73c6183bfb79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex5/src/component/Blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex5/src/component/CreateBlog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex5/src/component/Detail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex5/src/component/ModalDelete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex5/src/component/UpdateBlog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex5/src/data/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex5/src/service/BlogService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case-study/src/component/customer/ModalDelete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex7/src/component/AddBlog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex7/src/component/BlogList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex7/src/http-common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex7/src/redux/action/Blogs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex7/src/redux/action/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex7/src/redux/reducer/Blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex7/src/redux/reducer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex7/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex7/src/service/BlogService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case-study/src/component/customer/AddCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/component/customer/AddCustomer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/src/component/CreateBlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/src/component/CreateBlog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/component/customer/Customer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/component/customer/Customer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/component/customer/CustomerList.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/component/customer/CustomerList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/component/customer/EditCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/component/customer/EditCustomer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/data/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/service/CustomerService.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/service/CustomerService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex2/src/component/UpdateBlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/src/component/UpdateBlog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js-tokens/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/cli.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/loose-envify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/replace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-dev-runtime.development.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-dev-runtime.production.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-dev-runtime.profiling.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-runtime.development.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-runtime.production.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-runtime.profiling.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.shared-subset.development.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.shared-subset.production.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/jsx-dev-runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/jsx-runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/react.shared-subset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.development.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.production.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.profiling.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex5/src/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/ex5/src/data/data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +90,17 @@
       <recent name="D:\module5" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.json-server">
+    <configuration name="json-server (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/ex2/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="json-server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="json-server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/case-study/package.json" />
       <command value="run" />
@@ -131,6 +114,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.json-server" />
+        <item itemvalue="npm.json-server (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +147,13 @@
       <workItem from="1683181888476" duration="8124000" />
       <workItem from="1683204602378" duration="248000" />
       <workItem from="1683250721100" duration="3664000" />
-      <workItem from="1683268284944" duration="4481000" />
+      <workItem from="1683268284944" duration="5075000" />
+      <workItem from="1683509277808" duration="4701000" />
+      <workItem from="1683527477228" duration="726000" />
+      <workItem from="1683551172875" duration="380000" />
+      <workItem from="1683597022912" duration="3892000" />
+      <workItem from="1683614030560" duration="7172000" />
+      <workItem from="1683622428989" duration="1925000" />
     </task>
     <servers />
   </component>
@@ -200,22 +190,26 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="421" y="92" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1682563146307" />
-    <state width="1259" height="161" key="GridCell.Tab.0.bottom" timestamp="1683263506358">
+    <state width="616" height="161" key="GridCell.Tab.0.bottom" timestamp="1683622418144">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1259" height="161" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1683263506358" />
-    <state width="1259" height="161" key="GridCell.Tab.0.center" timestamp="1683263506357">
+    <state width="616" height="161" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1683622418144" />
+    <state width="616" height="161" key="GridCell.Tab.0.center" timestamp="1683622418143">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1259" height="161" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1683263506357" />
-    <state width="1259" height="161" key="GridCell.Tab.0.left" timestamp="1683263506357">
+    <state width="616" height="161" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1683622418143" />
+    <state width="616" height="161" key="GridCell.Tab.0.left" timestamp="1683622418143">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1259" height="161" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1683263506357" />
-    <state width="1259" height="161" key="GridCell.Tab.0.right" timestamp="1683263506358">
+    <state width="616" height="161" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1683622418143" />
+    <state width="616" height="161" key="GridCell.Tab.0.right" timestamp="1683622418143">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1259" height="161" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1683263506358" />
+    <state width="616" height="161" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1683622418143" />
+    <state x="347" y="71" width="587" height="530" key="find.popup" timestamp="1683511663457">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="347" y="71" width="587" height="530" key="find.popup/0.0.1280.672@0.0.1280.672" timestamp="1683511663457" />
     <state x="297" y="149" key="run.anything.popup" timestamp="1682676790913">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -228,6 +222,11 @@
           <url>file://$PROJECT_DIR$/ex1/ex2.html</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/case-study/src/component/customer/AddCustomer.js</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

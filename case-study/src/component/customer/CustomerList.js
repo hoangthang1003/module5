@@ -1,12 +1,19 @@
 import {customerService} from "../../service/CustomerService";
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
+import {ModalDelete} from "./ModalDelete";
 
 
 function CustomerList() {
     const [customerList, setCustomerList] = useState([]);
     const [customerTypeList, setCustomerTypeList] = useState([]);
+    const [deleteId,setDeleteId] = useState("")
+    const [deleteName,setDeleteName] = useState("")
 
+    const getPropsCustomer = async (id,name) => {
+        setDeleteId(id)
+        setDeleteName(name)
+    }
 
     const customerTypes = async () => {
         const result = await customerService.customerTypeList();
@@ -33,9 +40,11 @@ function CustomerList() {
                     <div>
                         <h2 className="text-center fw-bold pt-4">Danh Sách Tất Cả Các Khách Hàng</h2>
                     </div>
-
+                    <div>
+                        <Link to={"/addCustomer"} className="btn btn-primary">Add Customer</Link>
+                    </div>
                     <div className="col-lg-12">
-                        <table id="tableCustomer" className="table">
+                        <table id="tableCustomer" className="table table-striped">
                             <thead>
                             <tr>
                                 <th>STT</th>
@@ -65,12 +74,20 @@ function CustomerList() {
                                         <td>{customer.address}</td>
                                         <td>{customerTypeList.filter(ct => ct.id === customer.customerType)[0]?.name}</td>
                                         <td>
-                                            <Link to="editCustomer/${}" className="btn btn-primary">Edit</Link>
+                                            <Link to={`editCustomer/${customer.id}`} className="btn btn-primary">Edit</Link>
                                         </td>
                                         <td>
-                                            <button type="button" className="btn btn-danger">Delete</button>
+
+                                            <button
+                                                type="button"
+                                                className="btn btn-danger"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"
+                                                onClick={() => getPropsCustomer(customer.id, customer.name)}
+                                            >Delete
+                                            </button>
                                         </td>
-                                        <td></td>
+
                                     </tr>
                                 ))
                             }
@@ -79,7 +96,15 @@ function CustomerList() {
                     </div>
                 </div>
             </div>
-
+            <ModalDelete
+                id={deleteId}
+                name={deleteName}
+                getList={
+                    () => {
+                        findAll()
+                    }
+                }
+            />
 
         </>
     );

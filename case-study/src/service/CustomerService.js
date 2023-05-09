@@ -8,6 +8,14 @@ const findAll = async () => {
         console.log(e)
     }
 }
+const findById = async (id) => {
+    try {
+        const result = await axios.get(`http://localhost:7000/customers/${id}`)
+        return result.data;
+    } catch (e) {
+        console.log(e)
+    }
+}
 const customerTypeList = async () => {
     try {
         const result = await axios.get(`http://localhost:7000/customerTypes`)
@@ -36,6 +44,7 @@ const addCustomer = async (values) => {
 
 export const customerService = {
     findAll,
+    findById,
     deleteCustomer,
     addCustomer,
     customerTypeList
