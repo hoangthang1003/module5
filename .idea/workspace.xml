@@ -20,29 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e52339c6-9b8c-44b2-be5c-73c6183bfb79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/case-study/src/component/customer/ModalDelete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex7/src/component/AddBlog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex7/src/component/BlogList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex7/src/http-common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex7/src/redux/action/Blogs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex7/src/redux/action/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex7/src/redux/reducer/Blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex7/src/redux/reducer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex7/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex7/src/service/BlogService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex8/pages/blog/[id].js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex8/pages/blog/postAdd/addPost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex8/pages/blog/postEdit/[id].js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex8/pages/mock-data/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/component/customer/AddCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/component/customer/AddCustomer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/component/customer/Customer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/component/customer/Customer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/component/customer/CustomerList.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/component/customer/CustomerList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/component/customer/EditCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/component/customer/EditCustomer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/data/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/service/CustomerService.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/service/CustomerService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex2/src/component/UpdateBlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex2/src/component/UpdateBlog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex5/src/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/ex5/src/data/data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +36,7 @@
       <list>
         <option value="HTML File" />
         <option value="TypeScript File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -72,18 +55,8 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\USER\Downloads\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -154,6 +127,11 @@
       <workItem from="1683597022912" duration="3892000" />
       <workItem from="1683614030560" duration="7172000" />
       <workItem from="1683622428989" duration="1925000" />
+      <workItem from="1683687817066" duration="596000" />
+      <workItem from="1683700805130" duration="2146000" />
+      <workItem from="1683703109131" duration="2289000" />
+      <workItem from="1683711214119" duration="65000" />
+      <workItem from="1683724873700" duration="1187000" />
     </task>
     <servers />
   </component>
@@ -178,42 +156,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="415" y="139" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1682558634486">
+    <state width="1259" height="161" key="GridCell.Tab.0.bottom" timestamp="1683725774253">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="415" y="139" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672@0.0.1280.672" timestamp="1682558634486" />
-    <state x="371" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1682492638133">
+    <state width="1259" height="161" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1683725774253" />
+    <state width="1259" height="161" key="GridCell.Tab.0.center" timestamp="1683725774253">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="371" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.672@0.0.1280.672" timestamp="1682492638133" />
-    <state x="421" y="92" key="FileChooserDialogImpl" timestamp="1682563146307">
+    <state width="1259" height="161" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1683725774253" />
+    <state width="1259" height="161" key="GridCell.Tab.0.left" timestamp="1683725774253">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="421" y="92" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1682563146307" />
-    <state width="616" height="161" key="GridCell.Tab.0.bottom" timestamp="1683622418144">
+    <state width="1259" height="161" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1683725774253" />
+    <state width="1259" height="161" key="GridCell.Tab.0.right" timestamp="1683725774253">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="616" height="161" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1683622418144" />
-    <state width="616" height="161" key="GridCell.Tab.0.center" timestamp="1683622418143">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="616" height="161" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1683622418143" />
-    <state width="616" height="161" key="GridCell.Tab.0.left" timestamp="1683622418143">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="616" height="161" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1683622418143" />
-    <state width="616" height="161" key="GridCell.Tab.0.right" timestamp="1683622418143">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state width="616" height="161" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1683622418143" />
-    <state x="347" y="71" width="587" height="530" key="find.popup" timestamp="1683511663457">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="347" y="71" width="587" height="530" key="find.popup/0.0.1280.672@0.0.1280.672" timestamp="1683511663457" />
-    <state x="297" y="149" key="run.anything.popup" timestamp="1682676790913">
-      <screen x="0" y="0" width="1280" height="672" />
-    </state>
-    <state x="297" y="149" key="run.anything.popup/0.0.1280.672@0.0.1280.672" timestamp="1682676790913" />
+    <state width="1259" height="161" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1683725774253" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
