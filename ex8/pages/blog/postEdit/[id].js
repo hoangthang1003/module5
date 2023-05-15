@@ -10,7 +10,7 @@ import Link from "next/link";
 const EditPost = () => {
     const date = new Date();
     const updatedAt = date.getHours() + ":" + date.getMinutes() + " " + date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear()
-    const [postData, setPostData] = useState();
+    const [postData, setPostData] = useState("");
     const router = useRouter();
     const {id} = router.query;
     useEffect(() => {

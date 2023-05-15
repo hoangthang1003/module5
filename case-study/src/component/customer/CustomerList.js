@@ -2,15 +2,16 @@ import {customerService} from "../../service/CustomerService";
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 import {ModalDelete} from "./ModalDelete";
+import {Field, Form, Formik} from "formik";
 
 
 function CustomerList() {
     const [customerList, setCustomerList] = useState([]);
     const [customerTypeList, setCustomerTypeList] = useState([]);
-    const [deleteId,setDeleteId] = useState("")
-    const [deleteName,setDeleteName] = useState("")
+    const [deleteId, setDeleteId] = useState("")
+    const [deleteName, setDeleteName] = useState("")
 
-    const getPropsCustomer = async (id,name) => {
+    const getPropsCustomer = async (id, name) => {
         setDeleteId(id)
         setDeleteName(name)
     }
@@ -33,20 +34,51 @@ function CustomerList() {
     }, [])
 
 
+    let ctx;
     return (
         <>
+
             <div className="row mx-0 mt-5" style={{height: 500}}>
                 <div className="col-12 px-0">
                     <div>
                         <h2 className="text-center fw-bold pt-4">Danh Sách Tất Cả Các Khách Hàng</h2>
                     </div>
                     <div>
+                        <Formik
+                            initialValues={{name: '', customerType: '1'}}
+
+                            onSubmit={(values) => {
+                                const searchByName = async () => {
+                                    const result = await customerService.searchCustomer(values.name, values.customerType)
+                                    console.log(values)
+                                    setCustomerList(result)
+                                }
+                                searchByName()
+                            }}>
+                            <Form>
+                                <div>
+                                    <Field id="name" name="name"/>
+
+                                    <Field as="select" id="customerType" name="customerType">
+                                        {
+                                            customerTypeList.map((ct, index) =>
+                                                <option key={index} value={ct.id}>{ct.name}</option>
+                                            )
+                                        }
+                                    </Field>
+                                    <button type="submit">Submit</button>
+                                </div>
+
+                            </Form>
+                        </Formik>
+                    </div>
+                    <div>
                         <Link to={"/addCustomer"} className="btn btn-primary">Add Customer</Link>
                     </div>
                     <div className="col-lg-12">
-                        <table id="tableCustomer" className="table table-striped">
+                        <table id="tableCustomer " className="table table-striped ">
                             <thead>
-                            <tr>
+                            <tr className="table1">
                                 <th>STT</th>
                                 <th>Tên khách hàng</th>
                                 <th>Ngày sinh</th>
@@ -74,7 +106,8 @@ function CustomerList() {
                                         <td>{customer.address}</td>
                                         <td>{customerTypeList.filter(ct => ct.id === customer.customerType)[0]?.name}</td>
                                         <td>
-                                            <Link to={`editCustomer/${customer.id}`} className="btn btn-primary">Edit</Link>
+                                            <Link to={`/customers/editCustomer/${customer.id}`}
+                                                  className="btn btn-primary">Edit</Link>
                                         </td>
                                         <td>
 
@@ -96,6 +129,7 @@ function CustomerList() {
                     </div>
                 </div>
             </div>
+
             <ModalDelete
                 id={deleteId}
                 name={deleteName}

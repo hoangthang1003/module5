@@ -13,6 +13,7 @@ export default function Home() {
               <th className={styles.th}>title</th>
               <th className={styles.th}>Category</th>
               <th className={styles.th}>Updated At</th>
+              <th className={styles.th}>Edit</th>
             </tr>
             </thead>
             <tbody>
@@ -22,14 +23,16 @@ export default function Home() {
                   <td className={styles.td}>{blog.title}</td>
                   <td className={styles.td}>{blog.category}</td>
                   <td className={styles.td}>{blog.updatedAt}</td>
-                  <Link href={`/blog/${encodeURIComponent(blog.id)}`}>
-                    <a>Show</a>
+                  <Link href={`/blog/postEdit${encodeURIComponent(blog.id)}`}>
+                    <a>Edit</a>
                   </Link>
                 </tr>
             ))}
             </tbody>
           </table>
+
         </main>
       </div>
+
   );
 }

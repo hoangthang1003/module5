@@ -16,17 +16,18 @@ function CustomerCreate() {
     useEffect(() => {
         customerType();
     }, [])
-
     return (
         <>
             <Formik
-                initialValues={{ name: '', gender: '', age: '', phoneNumber: '', address: '', customerType: 1 }}
+                initialValues={{ name: '', gender: '',dateOfBirth:'', idCard: '', phoneNumber: '', address: '', customerType: '1' }}
                 validationSchema={Yup.object({
                     name: Yup.string()
                         .required('Không được để trống').min(2, 'độ dài ký tự phải từ 2 trở lên'),
                     gender: Yup.string()
                         .required('Không được để trống'),
-                    age: Yup.number()
+                    dateOfBirth: Yup.string()
+                        .required('Không được để trống'),
+                    idCard: Yup.number()
                         .required('Không được để trống'),
                     phoneNumber: Yup.string()
                         .required('Không được để trống').min(10, 'số điện thoại phải dài ít nhất 10 số và nhiều nhất 12 số')
@@ -39,15 +40,14 @@ function CustomerCreate() {
                     console.log(values)
                     const create = async () => {
                         await customerService.addCustomer(values);
-                        console.log(values)
-                        // navigate('/customer')
+                        navigate('/')
                     };
                     create();
                 }
                 }
             >
 
-                <Form>
+                <Form >
                     <h1 className='mb'>Create Customer</h1>
                     <div className="mb-3">
                         <label htmlFor="name">Name: <span>*</span></label>
@@ -55,6 +55,15 @@ function CustomerCreate() {
                                name='name'
                         />
                         <ErrorMessage name='name' component='span' className='form-err' />
+
+
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="dateOfBirth">Date Of Birth: <span>*</span></label>
+                        <Field type="date" className="form-control" id="dateOfBirth"
+                               name='dateOfBirth'
+                        />
+                        <ErrorMessage name='dateOfBirth' component='span' className='form-err' />
 
 
                     </div>
@@ -72,22 +81,31 @@ function CustomerCreate() {
                         </div>
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="age">Age: <span>*</span></label>
+                        <label htmlFor="age">Id Card: <span>*</span></label>
 
-                        <Field type="text" className="form-control" id="age"
-                               name='age'
+                        <Field type="text" className="form-control" id="idCard"
+                               name='idCard'
                         />
-                        <ErrorMessage name='age' component='span' className='form-err' />
+                        <ErrorMessage name='idCard' component='span' className='form-err' />
 
                     </div>
 
                     <div className="mb-3">
-                        <label htmlFor="phoneNumber"> Phone Number  <span>*</span></label>
+                        <label htmlFor="idCard"> Phone Number  <span>*</span></label>
 
                         <Field type="text" className="form-control" id="phoneNumber"
                                name='phoneNumber'
                         />
                         <ErrorMessage name='phoneNumber' component='span' className='form-err' />
+
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="email"> email  <span>*</span></label>
+
+                        <Field type="text" className="form-control" id="email"
+                               name='email'
+                        />
+                        <ErrorMessage name='email' component='span' className='form-err' />
 
                     </div>
 

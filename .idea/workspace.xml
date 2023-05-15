@@ -20,11 +20,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e52339c6-9b8c-44b2-be5c-73c6183bfb79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex8/pages/blog/[id].js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex8/pages/blog/postAdd/addPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex8/pages/blog/postEdit/[id].js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex8/pages/mock-data/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case-study/src/component/contract/ModalDeleteContract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case-study/src/component/facility/ModalFacilityDelete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo/dto/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo/model/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo/repository/ICustomerTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo/service/ICustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo/service/impl/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/example/demo/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/example/demo/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/example/demo/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/example/demo/model/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/example/demo/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/example/demo/repository/IProductTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/example/demo/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/example/demo/service/IProductTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/example/demo/service/impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/example/demo/service/impl/ProductTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/component/CreateProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/component/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/component/UpdateProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/data/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/service/ProductService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/component/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/component/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/component/contract/Contract.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/component/contract/ContractList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/component/contract/contract.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/component/customer/AddCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/component/customer/AddCustomer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/component/customer/CustomerList.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/component/customer/CustomerList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/component/customer/EditCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/component/customer/EditCustomer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/component/facility/FacilityList.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/component/facility/FacilityList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/data/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/service/CustomerService.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/service/CustomerService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/service/FacilityService.js" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/service/FacilityService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex8/pages/blog/postEdit/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/ex8/pages/blog/postEdit/[id].js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex8/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex8/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex8/pages/mock-data/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/ex8/pages/mock-data/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +75,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -56,9 +97,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\USER\Downloads\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\module5\case-study\src\component\facility" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\module5" />
     </key>
@@ -131,17 +181,29 @@
       <workItem from="1683700805130" duration="2146000" />
       <workItem from="1683703109131" duration="2289000" />
       <workItem from="1683711214119" duration="65000" />
-      <workItem from="1683724873700" duration="1187000" />
+      <workItem from="1683724873700" duration="1780000" />
+      <workItem from="1683774644609" duration="5721000" />
+      <workItem from="1683780440231" duration="130000" />
+      <workItem from="1683786756333" duration="4633000" />
+      <workItem from="1683799876523" duration="300000" />
+      <workItem from="1683854778170" duration="3612000" />
+      <workItem from="1683873139687" duration="6481000" />
+      <workItem from="1683882502478" duration="84000" />
+      <workItem from="1683882619157" duration="21000" />
+      <workItem from="1683882681458" duration="1402000" />
+      <workItem from="1684107954629" duration="26000" />
+      <workItem from="1684107981835" duration="1652000" />
+      <workItem from="1684114567721" duration="408000" />
+      <workItem from="1684114988207" duration="8471000" />
+      <workItem from="1684123756714" duration="95000" />
+      <workItem from="1684135782528" duration="1739000" />
+      <workItem from="1684140435327" duration="742000" />
+      <workItem from="1684156940746" duration="1026000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/case-study/src/component/contract/Contract.js" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -156,22 +218,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="161" key="GridCell.Tab.0.bottom" timestamp="1683725774253">
+    <state width="1259" height="161" key="GridCell.Tab.0.bottom" timestamp="1684157828958">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1259" height="161" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1683725774253" />
-    <state width="1259" height="161" key="GridCell.Tab.0.center" timestamp="1683725774253">
+    <state width="1259" height="161" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1684157828958" />
+    <state width="1259" height="161" key="GridCell.Tab.0.center" timestamp="1684157828958">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1259" height="161" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1683725774253" />
-    <state width="1259" height="161" key="GridCell.Tab.0.left" timestamp="1683725774253">
+    <state width="1259" height="161" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1684157828958" />
+    <state width="1259" height="161" key="GridCell.Tab.0.left" timestamp="1684157828958">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1259" height="161" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1683725774253" />
-    <state width="1259" height="161" key="GridCell.Tab.0.right" timestamp="1683725774253">
+    <state width="1259" height="161" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1684157828958" />
+    <state width="1259" height="161" key="GridCell.Tab.0.right" timestamp="1684157828958">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state width="1259" height="161" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1683725774253" />
+    <state width="1259" height="161" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1684157828958" />
+    <state x="251" y="5" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1684157663187">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="251" y="5" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.672@0.0.1280.672" timestamp="1684157663187" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -180,11 +246,6 @@
           <url>file://$PROJECT_DIR$/ex1/ex2.html</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/case-study/src/component/customer/AddCustomer.js</url>
-          <line>28</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

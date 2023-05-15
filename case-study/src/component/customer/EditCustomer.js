@@ -1,6 +1,6 @@
 import {ErrorMessage, Field, Form, Formik} from "formik";
 import * as Yup from 'yup';
-import {useParams} from "react-router";
+import {useNavigate, useParams} from "react-router";
 import React, {useEffect, useState} from "react";
 import {customerService} from "../../service/CustomerService";
 
@@ -9,6 +9,7 @@ export function EditCustomer() {
     const params = useParams()
     const [customer, setCustomer] = useState(null)
     const [customerTypes, setCustomerTypes] = useState(null)
+    const navigate = useNavigate()
     const findById = async () => {
         const result = await customerService.findById(params.id)
         setCustomer(result)
@@ -29,6 +30,7 @@ export function EditCustomer() {
         <>
             <Formik
                 initialValues={{
+                    id: customer?.id,
                     name: customer?.name,
                     dateOfBirth: customer?.dateOfBirth,
                     gender: customer?.gender,
@@ -39,7 +41,6 @@ export function EditCustomer() {
                     customerType: customer?.customerType
                 }}
                 validationSchema={Yup.object({
-
                     name: Yup.string().required("REQUIRED_VALIDATION"),
                     dateOfBirth: Yup.string().required("REQUIRED_VALIDATION"),
                     gender: Yup.string().required("REQUIRED_VALIDATION"),
@@ -50,13 +51,21 @@ export function EditCustomer() {
 
                 })}
                 onSubmit={(values) => {
-                    console.log(values)
+                    customerService.editCustomer(values)
+                    navigate('/')
                 }
                 }
             >
 
                 <Form>
                     <h1 className='mb'>Edit Customer</h1>
+                    <div className="mb-3">
+                        <Field type="hidden" className="form-control" id="id"
+                               name='id'
+                        />
+
+
+                    </div>
                     <div className="mb-3">
                         <label htmlFor="name">Name: <span>*</span></label>
                         <Field type="text" className="form-control" id="name"

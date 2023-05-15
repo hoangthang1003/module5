@@ -25,7 +25,7 @@ class Header extends Component {
                                     </li>
                                     <li className="nav-item navbar-brand">
 
-                                        <NavLink to="/contracts" className={"text"}>Contract</NavLink>
+                                        <NavLink to="/contract" className={"text"}>Contract</NavLink>
                                     </li>
                                 </ul>
                             </div>

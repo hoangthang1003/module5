@@ -1,114 +1,154 @@
 {
-  "customers": [
+  "customer": [
+    {
+      "name": "Rashford",
+      "gender": 1,
+      "dataOfBirth": "15-2-1997",
+      "idCard": "121212125",
+      "phone": "0902212362",
+      "email": "gea@gmail.com",
+      "address": "Quang nam",
+      "customerType": 1,
+      "id": 1
+    },
+    {
+      "name": "Rashford",
+      "gender": 1,
+      "dataOfBirth": "15-2-1997",
+      "idCard": "121212125",
+      "phone": "0902212362",
+      "email": "gea@gmail.com",
+      "address": "Quang nam",
+      "customerType": 2,
+      "id": 1
+    },
+    {
+      "name": "Rashford",
+      "gender": 1,
+      "dataOfBirth": "15-2-1997",
+      "idCard": "121212125",
+      "phone": "0902212362",
+      "email": "gea@gmail.com",
+      "address": "Quang nam",
+      "customerType": 1,
+      "id": 1
+    },
+    {
+      "name": "Rashford",
+      "gender": 1,
+      "dataOfBirth": "15-2-1997",
+      "idCard": "121212125",
+      "phone": "0902212362",
+      "email": "gea@gmail.com",
+      "address": "Quang nam",
+      "customerType": 1,
+      "id": 1
+    },
     {
       "id": 2,
-      "name": "Au dep try",
-      "dateOfBirth": "2023-02-01",
-      "gender": "2",
-      "idCard": "24211201346",
-      "phoneNumber": "0989888",
-      "email": "6767@gmail.com",
-      "address": "Quang Binh",
-      "customerType": "1"
-    },
-    {
-      "name": "thang",
-      "dateOfBirth": "2023-04-27",
-      "idCard": "0849982338",
-      "phoneNumber": "0915195883",
-      "email": "hoanganhthanght@gmail.com",
-      "address": "15 Hà Huy Tập",
-      "customerType": "2",
-      "id": 3
-    },
-    {
-      "name": "Nguyễn Thị Hà",
-      "gender": "Nam",
-      "age": "22",
-      "phoneNumber": "2222222222",
-      "address": "23abc",
-      "customerType": "4",
-      "id": 4
-    },
-    {
-      "name": "22",
-      "gender": "Nam",
-      "age": "22222",
-      "phoneNumber": "2222222222",
-      "address": "23abc",
-      "customerType": "4",
-      "id": 5
+      "name": "akira phan",
+      "gender": 1,
+      "dataOfBirth": "15-2-1997",
+      "idCard": "206062903",
+      "phone": "0900000000",
+      "email": "duapkaiemckuatung@gmail.com",
+      "address": "Yokohama",
+      "customerType": 1
     }
   ],
-  "customerTypes": [
+  "customerType": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Diamond"
     },
     {
-      "id": "2",
-      "name": "Platinum"
-    },
-    {
-      "id": "3",
+      "id": 2,
       "name": "Gold"
     },
     {
-      "id": "4",
-      "name": "Silver"
-    }
-  ],
-  "contracts": [
+      "id": 3,
+      "name": "Plantinium"
+    },
     {
-      "id": 2,
-      "customerId": "2",
-      "facilityId": "3",
-      "contractCode": "HD-2",
-      "startDate": "2021-12-08",
-      "endDate": "2021-13-08",
-      "deposit": "1500000",
-      "totalMoney": "30000000"
-    }
-  ],
-  "facility": [
+      "id": 4,
+      "name": "Silver"
+    },
     {
       "id": 5,
-      "name": " Xe đạp",
-      "area": 1000,
-      "cost": 5,
-      "maxPeople": 5,
-      "facilityType": 1,
-      "rentType": 1,
-      "standardRoom": "VIP",
-      "description": "",
-      "poolArea": 5,
-      "numberOfFloors": 5,
-      "facilityFree": "đèn mờ",
-      "status": false
+      "name": "Member"
     }
   ],
-  "facilityTypes": [
+  "gender": [
     {
       "id": 1,
-      "name": "Room"
+      "name": "Men"
     },
     {
       "id": 2,
-      "name": "House"
+      "name": "Girl"
     },
     {
       "id": 3,
-      "name": "Villa"
+      "name": "LGBT"
     }
   ],
-  "rentTypes": [
-    {
-      "id": 1,
-      "name": " Xe đạp"
-    },
+  "facilitiesList": [
     {
       "id": 2,
-      "name": "Ho Boi"
+      "facilityImg": "https://mikazuki.com.vn/vnt_upload/product/08_2021/thumbs/1000__Deluxe___King_1.jpg",
+      "facilityName": "Deluxe Room",
+      "facilityArea": "Diện tích phòng: 85.8 m2",
+      "facilityRentalCost": "20000",
+      "facitilyMaxPeople": "5",
+      "facilityRentalType": "Ngày",
+      "facilityTypeId": 1,
+      "facilityStandard": "vip",
+      "facilityOtherAminities": "Thuê xe máy / xe đạp",
+      "facilityPoolArea": "12",
+      "facilityNumbOfFloor": "3",
+      "facilityFreeAminities": null,
+      "facilityAminitiesid": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "facilityImg": "https://mikazuki.com.vn/vnt_upload/product/08_2021/thumbs/1000__Deluxe___King_1.jpg",
+      "facilityName": "Deluxe Room",
+      "facilityArea": "Diện tích phòng: 85.8 m2",
+      "facilityRentalCost": "20000",
+      "facitilyMaxPeople": "5",
+      "facilityRentalType": "Ngày",
+      "facilityTypeId": 1,
+      "facilityStandard": "vip",
+      "facilityOtherAminities": "Thuê xe máy / xe đạp",
+      "facilityPoolArea": "12",
+      "facilityNumbOfFloor": "3",
+      "facilityFreeAminities": null,
+      "facilityAminitiesid": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 6,
+      "facilityImg": "https://mikazuki.com.vn/vnt_upload/product/08_2021/thumbs/1000__Deluxe___King_1.jpg",
+      "facilityName": "Deluxe Room",
+      "facilityArea": "Diện tích phòng: 85.8 m2",
+      "facilityRentalCost": "20000",
+      "facitilyMaxPeople": "5",
+      "facilityRentalType": "Ngày",
+      "facilityTypeId": 1,
+      "facilityStandard": "vip",
+      "facilityOtherAminities": "Thuê xe máy / xe đạp",
+      "facilityPoolArea": "12",
+      "facilityNumbOfFloor": "3",
+      "facilityFreeAminities": null,
+      "facilityAminitiesid": [
+        1,
+        2
+      ]
     }
   ]
 }

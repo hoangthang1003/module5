@@ -43,8 +43,8 @@ const posts = [
 export function getPosts() {
     return posts
 }
-export function getPostById() {
-    return posts[]
+export function getPostById(id) {
+    return posts[id]
 }
 
 export function addPost(post) {

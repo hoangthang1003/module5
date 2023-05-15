@@ -1,0 +1,57 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "nameProduct": "Áo",
+      "date": "10/02/2023",
+      "amount": 7,
+      "productType": 2
+    },
+    {
+      "id": 1,
+      "nameProduct": "Quần",
+      "date": "10/02/2023",
+      "amount": 7,
+      "productType": 1
+    },
+    {
+      "id": 2,
+      "nameProduct": "Quần",
+      "date": "10/02/2023",
+      "amount": 7,
+      "productType": 3
+    },
+    {
+      "id": 3,
+      "nameProduct": "Quần",
+      "date": "10/02/2023",
+      "amount": 7,
+      "productType": 4
+    },
+    {
+      "id": 4,
+      "nameProduct": "Quần",
+      "date": "10/02/2023",
+      "amount": 7,
+      "productType": 4
+    }
+  ],
+  "productType": [
+    {
+      "id": 1,
+      "name": "Lụa"
+    },
+    {
+      "id": 2,
+      "name": "Bò"
+    },
+    {
+      "id": 3,
+      "name": "Vải"
+    },
+    {
+      "id": 4,
+      "name": "Kaki"
+    }
+  ]
+}
